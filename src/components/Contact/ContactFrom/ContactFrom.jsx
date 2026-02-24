@@ -14,7 +14,7 @@ const ContactFrom = () => {
     <div className="contact-form-content block">
         <form action="https://api.web3forms.com/submit" method="POST">
 
-        <input type="hidden" name="access_key" value="287d2dd6-c0a0-432c-aa5e-d52a4f370e19"/>
+        <input type="hidden" name="access_key" value="b6bdc903-c394-40af-80c1-5a3d70ab6568"/>
 
             <div className="name-container">
                 <input type="text" name='firstname' placeholder='First Name' required/>

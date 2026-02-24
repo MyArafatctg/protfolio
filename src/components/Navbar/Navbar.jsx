@@ -16,8 +16,15 @@ const Navbar = () => {
 
   
   const btnResumeDownload = () => {
-    toast.loading('Downloading..')
-}
+        const link = document.createElement('a');
+        link.href = '/Resume_of_Md_Yasin_Arafat.pdf';   // file inside public folder
+        link.download = 'Resume_of_Md_Yasin_Arafat.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        toast.success('Resume Downloaded ✅');
+    }
 
 
   return (

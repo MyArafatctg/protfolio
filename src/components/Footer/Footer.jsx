@@ -3,9 +3,10 @@ import './Footer.css';
 import { LuDownload } from "react-icons/lu";
 
 import github from '../../images/png-clipart-github-pages-logo-repository-fork-github-mammal-cat-like-mammal-thumbnail-removebg-preview (1).png';
-import fiverr from '../../images/fiverr-new3326.jpg';
+import linkedin from '../../images/linkedin.png';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="footer-container">
       <div className="nav-content-main">
@@ -22,13 +23,13 @@ const Footer = () => {
       </div>
       
       <div className="content">
-        <p className='details-p'>© 2024 Nawaf Rayhan, All Rights Reserved</p>
+        <p className='details-p'>© {currentYear} Yasin Arafat, All Rights Reserved</p>
         <div className="content-icons">
-          <a href="https://github.com/Nawaf-Rayhan585" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/MyArafatctg" target="_blank" rel="noopener noreferrer">
             <img className='icon-footer' src={github} alt="GitHub" />
           </a>
-          <a href="https://www.fiverr.com/s/KeWL7D8" target="_blank" rel="noopener noreferrer">
-            <img className='icon-fiverr icon-footer' src={fiverr} alt="Fiverr" />
+          <a href="https://www.linkedin.com/in/md-yasin-arafat-4588941bb/" target="_blank" rel="noopener noreferrer">
+            <img className='icon-fiverr icon-footer' src={linkedin} alt="linkedin" />
           </a>
         </div>
       </div>

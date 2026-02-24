@@ -43,6 +43,11 @@
     gap: 35px;
 }
 
+.text-d-none {
+    text-decoration: none;
+    color: white;
+}
+
 .hero img {
     margin-top: 50px;
     border-radius: 50%;

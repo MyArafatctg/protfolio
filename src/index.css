@@ -24,5 +24,5 @@ body {
         transparent 40px
       )
       #080d1d;
-      cursor: url('cursor.svg'), default;
+      /* cursor: url('cursor.svg'), default; */
 }

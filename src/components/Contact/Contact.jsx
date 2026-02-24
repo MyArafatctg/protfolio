@@ -14,11 +14,11 @@ const Contact = () => {
         <div className="block" style={{flex: 1}}>
           <ContactInfoCard
             icon={email_icon}  
-            text='fayaz7rg@gmail.com'
+            text='myarafat.ctg@gmail.com'
           />
           <ContactInfoCard
             icon={github_icon}
-            text='https://github.com/Nawaf-Rayhan585'
+            text='https://github.com/MyArafatctg'
           />
         </div>
         <div style={{flex: 1}}>

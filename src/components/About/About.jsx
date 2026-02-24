@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import man from '../../images/symbol-male-user-icon-circle-profile-icon-vector-illustration_276184-154.avif'
+import man from '../../images/profile.JPG'
 import { IoMdTime } from "react-icons/io";
 import { FaRegUser } from "react-icons/fa";
 import { FaRegFolder } from "react-icons/fa";
@@ -36,15 +36,18 @@ const About = () => {
                 <small>30+ Projects</small>
               </article>
 
-              <article className='about__card block'>
+              {/* <article className='about__card block'>
                 <FaRegUser className='about__icon'/>
                 <h5>Clients</h5>
                 <small>6</small>
-              </article>
+              </article> */}
             </div>
 
             <p className='context-text'>
-              I’m a <b>Frontend Developer</b> with expertise in <b>JavaScript, and React,</b> creating responsive and user-friendly web applications. I also have experience with the <b>MERN stack (MongoDB, Express, React, Node.js)</b> and <b>working with both MongoDB and SQL databases.</b> While my focus is on frontend development, I’m constantly expanding my backend skills to build more complete, full-stack solutions. <b>Ready to help anyone.</b>
+              I’m a passionate <b>Software Engineer</b> with strong expertise in <b>Java, Spring Boot, React, TypeScript, Oracle APEX, and Oracle Database.</b> 
+              I specialize in building scalable full-stack applications that solve real-world business problems with clean architecture and performance-focused design.
+              <br/>
+              I have hands-on experience developing enterprise systems including <b>Garments Management Systems (GMS) </b>, POS software, <b>Automation</b> and modern eCommerce platforms. From secure REST APIs with JWT authentication to responsive React frontends and optimized database design, I enjoy building complete end-to-end solutions.
             </p>
 
             <a href="#contact" className='btn2 block' onClick={btnToast}>Let's Talk </a>
